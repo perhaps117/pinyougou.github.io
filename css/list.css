@@ -1,0 +1,52 @@
+/* 列表页专有css */
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e905';
+    font-family: 'icomoon';
+    margin-left: 2px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.sk_hd {
+    overflow: hidden;
+    width: 1000px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 250px;
+    height: 400px;
+    /* background-color: pink; */
+    border: 1px solid #fff;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #ccc;
+}
+.sk_bd ul li img {
+    width: 248px;
+    height: 398px;
+}
